@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface EnterNamesBoxesProps {
 	numOfPlayers: number;
 	playerNames: string[];

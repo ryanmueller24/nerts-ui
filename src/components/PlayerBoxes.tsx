@@ -11,7 +11,7 @@ interface PlayerBoxesProps {
   setScores: (scores: (number)[]) => void;
 }
 
-function PlayerBoxes({ numOfPlayers, winnerIndex, setWinnerIndex, resetWinsTrigger, scores, playerNames, setPlayerNames, setScores }: PlayerBoxesProps) {
+function PlayerBoxes({ numOfPlayers, setWinnerIndex, resetWinsTrigger, scores, playerNames, setPlayerNames, setScores }: PlayerBoxesProps) {
 
   useEffect(() => {
     setWins(Array(numOfPlayers).fill(false));
